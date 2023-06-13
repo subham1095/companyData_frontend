@@ -1,0 +1,78 @@
+.app_container {
+  /* display: flex;
+  flex-direction: column; */
+  gap: 30px;
+  padding: 1rem;
+  margin-left: 280px;
+  /* border:1px solid black; */
+  margin-bottom: 300px;
+
+  /* background-color: #fff; */
+}
+
+/* .app_container > table > thead > tr > th {
+  border: 1px solid #ffffff;
+  color: rgb(108, 123, 136);
+  font-weight: 400;
+  background-color: rgb(224, 246, 248);
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.app_container > table > tbody > tr > td {
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+}
+.odd:nth-last-child(even) {
+  background: #ececec;
+}
+
+.odd:nth-last-child(odd) {
+  background: #fff;
+}
+.app_container > table > tbody > tr > td > button {
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+} */
+
+.button {
+  background-color: #008cba;
+  width: 100px;
+  height: 45px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+
+.button1 {
+  background-color: #f44336;
+  width: 100px;
+  height: 45px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+
+.button:hover {
+  opacity: 0.5; /* Green */
+  color: white;
+}
+.button1:hover {
+  opacity: 0.5; /* Green */
+  color: white;
+}
